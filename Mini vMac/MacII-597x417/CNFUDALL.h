@@ -22,8 +22,8 @@
 #define IncludeSonyNew 1
 #define IncludeSonyNameNew 1
 
-#define vMacScreenHeight 480
-#define vMacScreenWidth 640
+#define vMacScreenHeight 417
+#define vMacScreenWidth 597
 #define vMacScreenDepth 3
 
 #define kROM_Size 0x00040000
@@ -39,9 +39,9 @@
 #define AutoLocation 1
 #define AutoTimeZone 1
 
-#define MNVMBundleClassName MacIIEmulator640x480
+#define MNVMBundleClassName MacIIEmulator597x417
 
 #ifdef PLIST_PREPROCESSOR
 #define MNVMBundleDisplayName Mac II
-#define MNVMBundleGetInfoString 8M, 640×480
+#define MNVMBundleGetInfoString 8M, 597×417 (iPad Pro 11")
 #endif

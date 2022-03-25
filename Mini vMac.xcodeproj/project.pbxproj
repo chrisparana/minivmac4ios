@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		281BB6C91D231F7700BF87B0 /* MacII-640x480.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28BDBEB71D230EEB0072ED5B /* MacII-640x480.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		281BB6C91D231F7700BF87B0 /* MacII-683x502.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28BDBEB71D230EEB0072ED5B /* MacII-683x502.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		283422D21CF8EF8C0088B634 /* MacPlus4M.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 283422CA1CF8EF8C0088B634 /* MacPlus4M.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		283422EE1CF8F2210088B634 /* MYOSGLUE.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE8ECB1CD4CDC500FE25A8 /* MYOSGLUE.m */; };
 		283423881CF9C4CB0088B634 /* MYOSGLUE.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE8ECB1CD4CDC500FE25A8 /* MYOSGLUE.m */; };
@@ -99,9 +99,6 @@
 		28E3B825251D0F13007C273F /* SNDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7DD251D0F13007C273F /* SNDEMDEV.c */; };
 		28E3B828251D0F13007C273F /* ASCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7DE251D0F13007C273F /* ASCEMDEV.c */; };
 		28E3B82A251D0F13007C273F /* ASCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7DE251D0F13007C273F /* ASCEMDEV.c */; };
-		28E3B838251D1EC1007C273F /* CNFUDALL.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E3B835251D1EC1007C273F /* CNFUDALL.h */; };
-		28E3B839251D1EC1007C273F /* CNFUDOSG.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E3B836251D1EC1007C273F /* CNFUDOSG.h */; };
-		28E3B83A251D1EC1007C273F /* CNFUDPIC.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E3B837251D1EC1007C273F /* CNFUDPIC.h */; };
 		28E3B83B251D1FA6007C273F /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7DC251D0F13007C273F /* VIAEMDEV.c */; };
 		28E3B83C251D1FA7007C273F /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7DC251D0F13007C273F /* VIAEMDEV.c */; };
 		28F676C21CD15E0B00FC6FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F676C11CD15E0B00FC6FA6 /* main.m */; };
@@ -131,6 +128,30 @@
 		28F6B4C21CF07F5C002D76D0 /* liblibres.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F6B4B61CF07F32002D76D0 /* liblibres.a */; };
 		28F6B4CA1CF1FA7A002D76D0 /* about.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28F6B4C91CF1FA7A002D76D0 /* about.plist */; };
 		28F6B4CF1CF77099002D76D0 /* compat.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6B4CE1CF77099002D76D0 /* compat.m */; };
+		B4D24CF627EE7DF2007ED3FF /* SCSIEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D9251D0F13007C273F /* SCSIEMDV.c */; };
+		B4D24CF727EE7DF2007ED3FF /* MINEM68K.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D3251D0F13007C273F /* MINEM68K.c */; };
+		B4D24CF827EE7DF2007ED3FF /* GLOBGLUE.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7CE251D0F12007C273F /* GLOBGLUE.c */; };
+		B4D24CF927EE7DF2007ED3FF /* M68KITAB.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7CF251D0F12007C273F /* M68KITAB.c */; };
+		B4D24CFA27EE7DF2007ED3FF /* PROGMAIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D0251D0F12007C273F /* PROGMAIN.c */; };
+		B4D24CFB27EE7DF2007ED3FF /* ADBEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D2251D0F13007C273F /* ADBEMDEV.c */; };
+		B4D24CFC27EE7DF2007ED3FF /* VIA2EMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D6251D0F13007C273F /* VIA2EMDV.c */; };
+		B4D24CFD27EE7DF2007ED3FF /* IWMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D5251D0F13007C273F /* IWMEMDEV.c */; };
+		B4D24CFE27EE7DF2007ED3FF /* VIAEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7DC251D0F13007C273F /* VIAEMDEV.c */; };
+		B4D24CFF27EE7DF2007ED3FF /* SCRNEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D4251D0F13007C273F /* SCRNEMDV.c */; };
+		B4D24D0027EE7DF2007ED3FF /* SONYEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D1251D0F12007C273F /* SONYEMDV.c */; };
+		B4D24D0127EE7DF2007ED3FF /* ROMEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7DA251D0F13007C273F /* ROMEMDEV.c */; };
+		B4D24D0227EE7DF2007ED3FF /* MYOSGLUE.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE8ECB1CD4CDC500FE25A8 /* MYOSGLUE.m */; };
+		B4D24D0327EE7DF2007ED3FF /* RTCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7CD251D0F12007C273F /* RTCEMDEV.c */; };
+		B4D24D0427EE7DF2007ED3FF /* SCCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D7251D0F13007C273F /* SCCEMDEV.c */; };
+		B4D24D0527EE7DF2007ED3FF /* MOUSEMDV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7CC251D0F12007C273F /* MOUSEMDV.c */; };
+		B4D24D0627EE7DF2007ED3FF /* VIDEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7D8251D0F13007C273F /* VIDEMDEV.c */; };
+		B4D24D0727EE7DF2007ED3FF /* ASCEMDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 28E3B7DE251D0F13007C273F /* ASCEMDEV.c */; };
+		B4D24D0B27EE7DF2007ED3FF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 283423EC1CFA329C0088B634 /* Icon.png */; };
+		B4D24D0C27EE7DF2007ED3FF /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283423ED1CFA329C0088B634 /* Icon@2x.png */; };
+		B4D24D0D27EE7DF2007ED3FF /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 283423EE1CFA329C0088B634 /* Icon@3x.png */; };
+		B4D24D1C27EE8187007ED3FF /* MacII-683x502 in Resources */ = {isa = PBXBuildFile; fileRef = B4D24D1B27EE8187007ED3FF /* MacII-683x502 */; };
+		B4D24D1F27EE819E007ED3FF /* MacII-597x417 in Resources */ = {isa = PBXBuildFile; fileRef = B4D24D1E27EE819E007ED3FF /* MacII-597x417 */; };
+		B4D24D2127EE849B007ED3FF /* MacII-597x417.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4D24D1227EE7DF2007ED3FF /* MacII-597x417.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,7 +185,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				281BB6C91D231F7700BF87B0 /* MacII-640x480.framework in Embed Frameworks */,
+				B4D24D2127EE849B007ED3FF /* MacII-597x417.framework in Embed Frameworks */,
+				281BB6C91D231F7700BF87B0 /* MacII-683x502.framework in Embed Frameworks */,
 				289710DF1CFB12660089D463 /* Mac128K.framework in Embed Frameworks */,
 				283423A31CF9C5880088B634 /* MacII.framework in Embed Frameworks */,
 				283422D21CF8EF8C0088B634 /* MacPlus4M.framework in Embed Frameworks */,
@@ -237,7 +259,7 @@
 		28BA89841CE73E7200A98104 /* TrackPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackPad.m; sourceTree = "<group>"; };
 		28BA89861CE73FBC00A98104 /* MNVMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNVMApplication.h; sourceTree = "<group>"; };
 		28BA89871CE73FBC00A98104 /* MNVMApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNVMApplication.m; sourceTree = "<group>"; };
-		28BDBEB71D230EEB0072ED5B /* MacII-640x480.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "MacII-640x480.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BDBEB71D230EEB0072ED5B /* MacII-683x502.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "MacII-683x502.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CE8ECB1CD4CDC500FE25A8 /* MYOSGLUE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYOSGLUE.m; sourceTree = "<group>"; };
 		28CE8ED41CD4F56C00FE25A8 /* ScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenView.h; sourceTree = "<group>"; };
 		28CE8ED51CD4F56C00FE25A8 /* ScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenView.m; sourceTree = "<group>"; };
@@ -272,9 +294,6 @@
 		28E3B832251D1E8A007C273F /* CNFUDALL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
 		28E3B833251D1E8A007C273F /* CNFUDPIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
 		28E3B834251D1E8A007C273F /* CNFUDOSG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
-		28E3B835251D1EC1007C273F /* CNFUDALL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNFUDALL.h; sourceTree = "<group>"; };
-		28E3B836251D1EC1007C273F /* CNFUDOSG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNFUDOSG.h; sourceTree = "<group>"; };
-		28E3B837251D1EC1007C273F /* CNFUDPIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNFUDPIC.h; sourceTree = "<group>"; };
 		28F676BD1CD15E0B00FC6FA6 /* Mini vMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini vMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F676C11CD15E0B00FC6FA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28F676C31CD15E0B00FC6FA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -329,6 +348,9 @@
 		28F6B4C91CF1FA7A002D76D0 /* about.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = about.plist; sourceTree = "<group>"; };
 		28F6B4CE1CF77099002D76D0 /* compat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = compat.m; sourceTree = "<group>"; };
 		28F875921D29402B001E99EB /* PlugIn-Capabilities.plist.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PlugIn-Capabilities.plist.xml"; sourceTree = "<group>"; };
+		B4D24D1227EE7DF2007ED3FF /* MacII-597x417.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "MacII-597x417.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D24D1B27EE8187007ED3FF /* MacII-683x502 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "MacII-683x502"; sourceTree = "<group>"; };
+		B4D24D1E27EE819E007ED3FF /* MacII-597x417 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "MacII-597x417"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,6 +413,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4D24D0827EE7DF2007ED3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -413,7 +442,8 @@
 				283422F01CF8F3530088B634 /* Shared */,
 				283422CB1CF8EF8C0088B634 /* MacPlus4M */,
 				283423981CF9C5380088B634 /* MacII */,
-				28BDBEB91D230F280072ED5B /* MacII-640x480 */,
+				B4D24D1E27EE819E007ED3FF /* MacII-597x417 */,
+				B4D24D1B27EE8187007ED3FF /* MacII-683x502 */,
 				289710D51CFB11D90089D463 /* Mac128K */,
 			);
 			name = "Emulator Bundles";
@@ -475,16 +505,6 @@
 			name = Keyboard;
 			sourceTree = "<group>";
 		};
-		28BDBEB91D230F280072ED5B /* MacII-640x480 */ = {
-			isa = PBXGroup;
-			children = (
-				28E3B835251D1EC1007C273F /* CNFUDALL.h */,
-				28E3B836251D1EC1007C273F /* CNFUDOSG.h */,
-				28E3B837251D1EC1007C273F /* CNFUDPIC.h */,
-			);
-			path = "MacII-640x480";
-			sourceTree = "<group>";
-		};
 		28E3B7CB251D0EEC007C273F /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,7 +551,8 @@
 				283422CA1CF8EF8C0088B634 /* MacPlus4M.framework */,
 				283423961CF9C4CB0088B634 /* MacII.framework */,
 				289710D41CFB11BF0089D463 /* Mac128K.framework */,
-				28BDBEB71D230EEB0072ED5B /* MacII-640x480.framework */,
+				28BDBEB71D230EEB0072ED5B /* MacII-683x502.framework */,
+				B4D24D1227EE7DF2007ED3FF /* MacII-597x417.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -657,9 +678,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E3B838251D1EC1007C273F /* CNFUDALL.h in Headers */,
-				28E3B83A251D1EC1007C273F /* CNFUDPIC.h in Headers */,
-				28E3B839251D1EC1007C273F /* CNFUDOSG.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +696,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		28BDBEAF1D230EEB0072ED5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D24D0927EE7DF2007ED3FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -744,9 +769,9 @@
 			productReference = 289710D41CFB11BF0089D463 /* Mac128K.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		28BDBE9A1D230EEB0072ED5B /* MacII-640x480 */ = {
+		28BDBE9A1D230EEB0072ED5B /* MacII-683x502 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28BDBEB41D230EEB0072ED5B /* Build configuration list for PBXNativeTarget "MacII-640x480" */;
+			buildConfigurationList = 28BDBEB41D230EEB0072ED5B /* Build configuration list for PBXNativeTarget "MacII-683x502" */;
 			buildPhases = (
 				28BDBE9B1D230EEB0072ED5B /* Sources */,
 				28BDBEAE1D230EEB0072ED5B /* Frameworks */,
@@ -758,9 +783,9 @@
 			);
 			dependencies = (
 			);
-			name = "MacII-640x480";
+			name = "MacII-683x502";
 			productName = "minivmac-plus4m";
-			productReference = 28BDBEB71D230EEB0072ED5B /* MacII-640x480.framework */;
+			productReference = 28BDBEB71D230EEB0072ED5B /* MacII-683x502.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		28F676BC1CD15E0B00FC6FA6 /* Mini vMac */ = {
@@ -837,6 +862,25 @@
 			productReference = 28F6B4B61CF07F32002D76D0 /* liblibres.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		B4D24CF427EE7DF2007ED3FF /* MacII-597x417 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D24D0F27EE7DF2007ED3FF /* Build configuration list for PBXNativeTarget "MacII-597x417" */;
+			buildPhases = (
+				B4D24CF527EE7DF2007ED3FF /* Sources */,
+				B4D24D0827EE7DF2007ED3FF /* Frameworks */,
+				B4D24D0927EE7DF2007ED3FF /* Headers */,
+				B4D24D0A27EE7DF2007ED3FF /* Resources */,
+				B4D24D0E27EE7DF2007ED3FF /* Add capabilities to Info.plist */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MacII-597x417";
+			productName = "minivmac-plus4m";
+			productReference = B4D24D1227EE7DF2007ED3FF /* MacII-597x417.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -861,7 +905,7 @@
 					};
 					28F676BC1CD15E0B00FC6FA6 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = UJXNDZ5TNU;
+						DevelopmentTeam = 3WQ58F994V;
 					};
 					28F6B48D1CF07DDD002D76D0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -893,8 +937,9 @@
 				28F6B4B51CF07F32002D76D0 /* libres */,
 				283422C91CF8EF8C0088B634 /* MacPlus4M */,
 				2834237D1CF9C4CB0088B634 /* MacII */,
+				B4D24CF427EE7DF2007ED3FF /* MacII-597x417 */,
+				28BDBE9A1D230EEB0072ED5B /* MacII-683x502 */,
 				289710B81CFB11BF0089D463 /* Mac128K */,
-				28BDBE9A1D230EEB0072ED5B /* MacII-640x480 */,
 			);
 		};
 /* End PBXProject section */
@@ -944,11 +989,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D24D1F27EE819E007ED3FF /* MacII-597x417 in Resources */,
 				28F6B4CA1CF1FA7A002D76D0 /* about.plist in Resources */,
 				28F676D01CD15E0B00FC6FA6 /* LaunchScreen.storyboard in Resources */,
 				28F676CD1CD15E0B00FC6FA6 /* Assets.xcassets in Resources */,
 				28BA89821CE7336500A98104 /* Keyboard Layouts in Resources */,
 				28F676CB1CD15E0B00FC6FA6 /* Main.storyboard in Resources */,
+				B4D24D1C27EE8187007ED3FF /* MacII-683x502 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D24D0A27EE7DF2007ED3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D24D0B27EE7DF2007ED3FF /* Icon.png in Resources */,
+				B4D24D0C27EE7DF2007ED3FF /* Icon@2x.png in Resources */,
+				B4D24D0D27EE7DF2007ED3FF /* Icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,6 +1084,20 @@
 			shellScript = "PlistBuddy=/usr/libexec/PlistBuddy\ncc \"-D$INFOPLIST_PREPROCESSOR_DEFINITIONS\" -P -E -x c -include \"$INFOPLIST_PREFIX_HEADER\" \"$SRCROOT/Mini vMac/PlugIn-Capabilities.plist.xml\" -o \"$TARGET_TEMP_DIR/Capabilities.plist\"\n$PlistBuddy -c \"Merge '$TARGET_TEMP_DIR/Capabilities.plist'\" \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\n";
 		};
 		28F875911D294001001E99EB /* Add capabilities to Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Add capabilities to Info.plist";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PlistBuddy=/usr/libexec/PlistBuddy\ncc \"-D$INFOPLIST_PREPROCESSOR_DEFINITIONS\" -P -E -x c -include \"$INFOPLIST_PREFIX_HEADER\" \"$SRCROOT/Mini vMac/PlugIn-Capabilities.plist.xml\" -o \"$TARGET_TEMP_DIR/Capabilities.plist\"\n$PlistBuddy -c \"Merge '$TARGET_TEMP_DIR/Capabilities.plist'\" \"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\n";
+		};
+		B4D24D0E27EE7DF2007ED3FF /* Add capabilities to Info.plist */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1193,6 +1264,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				28F6B4BF1CF07F39002D76D0 /* res.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D24CF527EE7DF2007ED3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D24CF627EE7DF2007ED3FF /* SCSIEMDV.c in Sources */,
+				B4D24CF727EE7DF2007ED3FF /* MINEM68K.c in Sources */,
+				B4D24CF827EE7DF2007ED3FF /* GLOBGLUE.c in Sources */,
+				B4D24CF927EE7DF2007ED3FF /* M68KITAB.c in Sources */,
+				B4D24CFA27EE7DF2007ED3FF /* PROGMAIN.c in Sources */,
+				B4D24CFB27EE7DF2007ED3FF /* ADBEMDEV.c in Sources */,
+				B4D24CFC27EE7DF2007ED3FF /* VIA2EMDV.c in Sources */,
+				B4D24CFD27EE7DF2007ED3FF /* IWMEMDEV.c in Sources */,
+				B4D24CFE27EE7DF2007ED3FF /* VIAEMDEV.c in Sources */,
+				B4D24CFF27EE7DF2007ED3FF /* SCRNEMDV.c in Sources */,
+				B4D24D0027EE7DF2007ED3FF /* SONYEMDV.c in Sources */,
+				B4D24D0127EE7DF2007ED3FF /* ROMEMDEV.c in Sources */,
+				B4D24D0227EE7DF2007ED3FF /* MYOSGLUE.m in Sources */,
+				B4D24D0327EE7DF2007ED3FF /* RTCEMDEV.c in Sources */,
+				B4D24D0427EE7DF2007ED3FF /* SCCEMDEV.c in Sources */,
+				B4D24D0527EE7DF2007ED3FF /* MOUSEMDV.c in Sources */,
+				B4D24D0627EE7DF2007ED3FF /* VIDEMDEV.c in Sources */,
+				B4D24D0727EE7DF2007ED3FF /* ASCEMDEV.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1415,7 +1511,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.namedfork.minivmac.macii-640x480";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.namedfork.minivmac.macii-683x502";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Mini vMac/$(PRODUCT_NAME)\" \"$(SRCROOT)/Mini vMac/\" \"$(SRCROOT)/minivmac/src\"";
@@ -1442,7 +1538,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.namedfork.minivmac.macii-640x480";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.namedfork.minivmac.macii-683x502";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Mini vMac/$(PRODUCT_NAME)\" \"$(SRCROOT)/Mini vMac/\" \"$(SRCROOT)/minivmac/src\"";
@@ -1565,14 +1661,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 13;
-				DEVELOPMENT_TEAM = UJXNDZ5TNU;
+				DEVELOPMENT_TEAM = 3WQ58F994V;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = "Mini vMac/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.4;
 				OTHER_CFLAGS = "-DUSE_LIBRES";
-				PRODUCT_BUNDLE_IDENTIFIER = net.namedfork.minivmac;
+				PRODUCT_BUNDLE_IDENTIFIER = net.parana.minivmac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1585,14 +1681,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 13;
-				DEVELOPMENT_TEAM = UJXNDZ5TNU;
+				DEVELOPMENT_TEAM = 3WQ58F994V;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				INFOPLIST_FILE = "Mini vMac/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.4;
 				OTHER_CFLAGS = "-DUSE_LIBRES";
-				PRODUCT_BUNDLE_IDENTIFIER = net.namedfork.minivmac;
+				PRODUCT_BUNDLE_IDENTIFIER = net.parana.minivmac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1662,6 +1758,60 @@
 			};
 			name = Release;
 		};
+		B4D24D1027EE7DF2007ED3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/PlugIn-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Mini vMac/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = PLIST_PREPROCESSOR;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.namedfork.minivmac.macii-597x417";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Mini vMac/$(PRODUCT_NAME)\" \"$(SRCROOT)/Mini vMac/\" \"$(SRCROOT)/minivmac/src\"";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4D24D1127EE7DF2007ED3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Mini vMac/PlugIn-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "$(SRCROOT)/Mini vMac/$(PRODUCT_NAME)/CNFUDALL.h";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = PLIST_PREPROCESSOR;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.namedfork.minivmac.macii-597x417";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Mini vMac/$(PRODUCT_NAME)\" \"$(SRCROOT)/Mini vMac/\" \"$(SRCROOT)/minivmac/src\"";
+				USE_HEADERMAP = NO;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1692,7 +1842,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28BDBEB41D230EEB0072ED5B /* Build configuration list for PBXNativeTarget "MacII-640x480" */ = {
+		28BDBEB41D230EEB0072ED5B /* Build configuration list for PBXNativeTarget "MacII-683x502" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				28BDBEB51D230EEB0072ED5B /* Debug */,
@@ -1742,6 +1892,15 @@
 			buildConfigurations = (
 				28F6B4BD1CF07F32002D76D0 /* Debug */,
 				28F6B4BE1CF07F32002D76D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D24D0F27EE7DF2007ED3FF /* Build configuration list for PBXNativeTarget "MacII-597x417" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D24D1027EE7DF2007ED3FF /* Debug */,
+				B4D24D1127EE7DF2007ED3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
